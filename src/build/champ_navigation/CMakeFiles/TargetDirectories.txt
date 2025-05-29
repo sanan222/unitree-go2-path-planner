@@ -1,0 +1,9 @@
+/home/drone/comp0244_ws/comp0244-go2/src/build/champ_navigation/CMakeFiles/uninstall.dir
+/home/drone/comp0244_ws/comp0244-go2/src/build/champ_navigation/CMakeFiles/champ_navigation_uninstall.dir
+/home/drone/comp0244_ws/comp0244-go2/src/build/champ_navigation/CMakeFiles/test.dir
+/home/drone/comp0244_ws/comp0244-go2/src/build/champ_navigation/CMakeFiles/edit_cache.dir
+/home/drone/comp0244_ws/comp0244-go2/src/build/champ_navigation/CMakeFiles/rebuild_cache.dir
+/home/drone/comp0244_ws/comp0244-go2/src/build/champ_navigation/CMakeFiles/list_install_components.dir
+/home/drone/comp0244_ws/comp0244-go2/src/build/champ_navigation/CMakeFiles/install.dir
+/home/drone/comp0244_ws/comp0244-go2/src/build/champ_navigation/CMakeFiles/install/local.dir
+/home/drone/comp0244_ws/comp0244-go2/src/build/champ_navigation/CMakeFiles/install/strip.dir

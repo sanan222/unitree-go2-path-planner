@@ -1,0 +1,9 @@
+/home/drone/comp0244_ws/comp0244-go2/src/build/champ_msgs/rosidl_adapter/champ_msgs:msg/Velocities.idl
+/home/drone/comp0244_ws/comp0244-go2/src/build/champ_msgs/rosidl_adapter/champ_msgs:msg/PID.idl
+/home/drone/comp0244_ws/comp0244-go2/src/build/champ_msgs/rosidl_adapter/champ_msgs:msg/Imu.idl
+/home/drone/comp0244_ws/comp0244-go2/src/build/champ_msgs/rosidl_adapter/champ_msgs:msg/Point.idl
+/home/drone/comp0244_ws/comp0244-go2/src/build/champ_msgs/rosidl_adapter/champ_msgs:msg/PointArray.idl
+/home/drone/comp0244_ws/comp0244-go2/src/build/champ_msgs/rosidl_adapter/champ_msgs:msg/Joints.idl
+/home/drone/comp0244_ws/comp0244-go2/src/build/champ_msgs/rosidl_adapter/champ_msgs:msg/Contacts.idl
+/home/drone/comp0244_ws/comp0244-go2/src/build/champ_msgs/rosidl_adapter/champ_msgs:msg/ContactsStamped.idl
+/home/drone/comp0244_ws/comp0244-go2/src/build/champ_msgs/rosidl_adapter/champ_msgs:msg/Pose.idl

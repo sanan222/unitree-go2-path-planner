@@ -1,0 +1,458 @@
+[0.055s] Invoking command in '/home/drone/comp0244_ws/comp0244-go2/src/build/champ_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drone/project_gazebo_ws/install/as2_visualization:/home/drone/project_gazebo_ws/install/as2_keyboard_teleoperation:/home/drone/project_gazebo_ws/install/as2_python_api:/opt/ros/humble /usr/bin/cmake /home/drone/comp0244_ws/comp0244-go2/src/unitree-go2-ros2/champ/champ_msgs -DCMAKE_INSTALL_PREFIX=/home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs
+[0.530s] -- The C compiler identification is GNU 11.4.0
+[0.530s] -- The CXX compiler identification is GNU 11.4.0
+[0.530s] -- Detecting C compiler ABI info
+[0.530s] -- Detecting C compiler ABI info - done
+[0.530s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.530s] -- Detecting C compile features
+[0.530s] -- Detecting C compile features - done
+[0.530s] -- Detecting CXX compiler ABI info
+[0.530s] -- Detecting CXX compiler ABI info - done
+[0.530s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.530s] -- Detecting CXX compile features
+[0.530s] -- Detecting CXX compile features - done
+[0.530s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.603s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.689s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.699s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.709s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.778s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.829s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[0.870s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.113s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.308s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.518s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.541s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.543s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.564s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.564s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.564s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.564s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.580s] -- Found PythonExtra: .so  
+[1.629s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.634s] -- Configuring done
+[1.656s] -- Generating done
+[1.663s] -- Build files have been written to: /home/drone/comp0244_ws/comp0244-go2/src/build/champ_msgs
+[1.668s] Invoked command in '/home/drone/comp0244_ws/comp0244-go2/src/build/champ_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drone/project_gazebo_ws/install/as2_visualization:/home/drone/project_gazebo_ws/install/as2_keyboard_teleoperation:/home/drone/project_gazebo_ws/install/as2_python_api:/opt/ros/humble /usr/bin/cmake /home/drone/comp0244_ws/comp0244-go2/src/unitree-go2-ros2/champ/champ_msgs -DCMAKE_INSTALL_PREFIX=/home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs
+[1.669s] Invoking command in '/home/drone/comp0244_ws/comp0244-go2/src/build/champ_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drone/project_gazebo_ws/install/as2_visualization:/home/drone/project_gazebo_ws/install/as2_keyboard_teleoperation:/home/drone/project_gazebo_ws/install/as2_python_api:/opt/ros/humble /usr/bin/cmake --build /home/drone/comp0244_ws/comp0244-go2/src/build/champ_msgs -- -j22 -l22
+[1.700s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.710s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.711s] [  2%] Built target ament_cmake_python_copy_champ_msgs
+[1.868s] running egg_info
+[1.868s] creating champ_msgs.egg-info
+[1.868s] writing champ_msgs.egg-info/PKG-INFO
+[1.868s] writing dependency_links to champ_msgs.egg-info/dependency_links.txt
+[1.868s] writing top-level names to champ_msgs.egg-info/top_level.txt
+[1.868s] writing manifest file 'champ_msgs.egg-info/SOURCES.txt'
+[1.870s] reading manifest file 'champ_msgs.egg-info/SOURCES.txt'
+[1.870s] writing manifest file 'champ_msgs.egg-info/SOURCES.txt'
+[1.886s] [  2%] Built target ament_cmake_python_build_champ_msgs_egg
+[2.059s] [  2%] Built target champ_msgs__cpp
+[2.066s] [  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.066s] [  4%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.069s] [  5%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.080s] [  7%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/point__functions.c.o[0m
+[2.080s] [  7%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/joints__functions.c.o[0m
+[2.080s] [  8%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/point_array__functions.c.o[0m
+[2.081s] [  9%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/contacts__functions.c.o[0m
+[2.081s] [ 10%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/velocities__functions.c.o[0m
+[2.082s] [ 11%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/contacts_stamped__functions.c.o[0m
+[2.082s] [ 12%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/pid__functions.c.o[0m
+[2.082s] [ 13%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/imu__functions.c.o[0m
+[2.082s] [ 14%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_c.dir/rosidl_generator_c/champ_msgs/msg/detail/pose__functions.c.o[0m
+[2.128s] [ 15%] [32m[1mLinking C shared library libchamp_msgs__rosidl_generator_c.so[0m
+[2.157s] [ 15%] Built target champ_msgs__rosidl_generator_c
+[2.167s] [ 17%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.167s] [ 18%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.167s] [ 18%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.294s] [ 20%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/point__type_support.cpp.o[0m
+[2.296s] [ 22%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/velocities__type_support.cpp.o[0m
+[2.296s] [ 22%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/pid__type_support.cpp.o[0m
+[2.296s] [ 24%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/point_array__type_support.cpp.o[0m
+[2.296s] [ 25%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/imu__type_support.cpp.o[0m
+[2.296s] [ 25%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/joints__type_support.cpp.o[0m
+[2.296s] [ 26%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/contacts__type_support.cpp.o[0m
+[2.297s] [ 27%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/pose__type_support.cpp.o[0m
+[2.297s] [ 28%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/champ_msgs/msg/contacts_stamped__type_support.cpp.o[0m
+[2.353s] [ 29%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/imu__type_support.cpp.o[0m
+[2.353s] [ 30%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/pose__type_support.cpp.o[0m
+[2.354s] [ 31%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/point__type_support.cpp.o[0m
+[2.354s] [ 32%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/joints__type_support.cpp.o[0m
+[2.355s] [ 34%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/point_array__type_support.cpp.o[0m
+[2.355s] [ 35%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/contacts__type_support.cpp.o[0m
+[2.356s] [ 34%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/contacts_stamped__type_support.cpp.o[0m
+[2.356s] [ 36%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/velocities__type_support.cpp.o[0m
+[2.358s] [ 37%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/champ_msgs/msg/detail/pid__type_support.cpp.o[0m
+[2.592s] [ 38%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/velocities__type_support.cpp.o[0m
+[2.611s] [ 40%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/pid__type_support.cpp.o[0m
+[2.614s] [ 41%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/imu__type_support.cpp.o[0m
+[2.614s] [ 42%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/point__type_support.cpp.o[0m
+[2.615s] [ 43%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/joints__type_support.cpp.o[0m
+[2.618s] [ 44%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/contacts__type_support.cpp.o[0m
+[2.623s] [ 45%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/contacts_stamped__type_support.cpp.o[0m
+[2.626s] [ 47%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/point_array__type_support.cpp.o[0m
+[2.628s] [ 47%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/pose__type_support.cpp.o[0m
+[2.631s] [ 48%] [32m[1mLinking CXX shared library libchamp_msgs__rosidl_typesupport_cpp.so[0m
+[2.637s] [ 49%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/velocities__type_support.cpp.o[0m
+[2.649s] [ 50%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/point__type_support.cpp.o[0m
+[2.649s] [ 51%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/pid__type_support.cpp.o[0m
+[2.654s] [ 52%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/imu__type_support.cpp.o[0m
+[2.662s] [ 53%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/joints__type_support.cpp.o[0m
+[2.663s] [ 54%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/contacts_stamped__type_support.cpp.o[0m
+[2.666s] [ 56%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/point_array__type_support.cpp.o[0m
+[2.666s] [ 56%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/contacts__type_support.cpp.o[0m
+[2.667s] [ 57%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/champ_msgs/msg/detail/dds_fastrtps/pose__type_support.cpp.o[0m
+[2.672s] [ 60%] [32m[1mLinking CXX shared library libchamp_msgs__rosidl_typesupport_c.so[0m
+[2.672s] [ 60%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/velocities__type_support.c.o[0m
+[2.684s] [ 61%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/velocities__type_support_c.cpp.o[0m
+[2.688s] [ 61%] Built target champ_msgs__rosidl_typesupport_cpp
+[2.705s] [ 62%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/pid__type_support_c.cpp.o[0m
+[2.706s] [ 63%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/imu__type_support_c.cpp.o[0m
+[2.712s] [ 64%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/imu__type_support.c.o[0m
+[2.720s] [ 64%] Built target champ_msgs__rosidl_typesupport_c
+[2.728s] [ 65%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/pid__type_support.c.o[0m
+[2.728s] [ 66%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/point__type_support.c.o[0m
+[2.732s] [ 67%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/point__type_support_c.cpp.o[0m
+[2.733s] [ 68%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/point_array__type_support_c.cpp.o[0m
+[2.766s] [ 69%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/joints__type_support_c.cpp.o[0m
+[2.769s] [ 71%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/contacts__type_support_c.cpp.o[0m
+[2.769s] [ 71%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/point_array__type_support.c.o[0m
+[2.778s] [ 72%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/pose__type_support_c.cpp.o[0m
+[2.779s] [ 73%] [32mBuilding CXX object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/champ_msgs/msg/detail/contacts_stamped__type_support_c.cpp.o[0m
+[2.813s] [ 75%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/joints__type_support.c.o[0m
+[2.817s] [ 75%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/contacts__type_support.c.o[0m
+[2.831s] [ 76%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/contacts_stamped__type_support.c.o[0m
+[2.856s] [ 77%] [32m[1mLinking CXX shared library libchamp_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.879s] [ 78%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/champ_msgs/msg/detail/pose__type_support.c.o[0m
+[2.927s] [ 80%] [32m[1mLinking C shared library libchamp_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.000s] [ 80%] Built target champ_msgs__rosidl_typesupport_introspection_c
+[3.016s] [ 80%] Built target champ_msgs__rosidl_typesupport_introspection_cpp
+[3.068s] [ 81%] [32m[1mLinking CXX shared library libchamp_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.123s] [ 81%] Built target champ_msgs__rosidl_typesupport_fastrtps_cpp
+[3.130s] [ 82%] [32m[1mLinking CXX shared library libchamp_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.183s] [ 82%] Built target champ_msgs__rosidl_typesupport_fastrtps_c
+[3.203s] [ 82%] Built target champ_msgs
+[3.221s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.760s] [ 83%] Built target champ_msgs__py
+[3.775s] [ 86%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_joints_s.c.o[0m
+[3.775s] [ 86%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_s.c.o[0m
+[3.775s] [ 86%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_s.c.o[0m
+[3.775s] [ 87%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pid_s.c.o[0m
+[3.776s] [ 90%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_velocities_s.c.o[0m
+[3.777s] [ 90%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_array_s.c.o[0m
+[3.777s] [ 90%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_imu_s.c.o[0m
+[3.777s] [ 91%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pose_s.c.o[0m
+[3.777s] [ 92%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_stamped_s.c.o[0m
+[3.868s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/champ_msgs/libchamp_msgs__rosidl_generator_py.so[0m
+[3.905s] [ 93%] Built target champ_msgs__rosidl_generator_py
+[3.922s] [ 94%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.923s] [ 95%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[3.924s] [ 96%] [32mBuilding C object CMakeFiles/champ_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.989s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/champ_msgs/champ_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.989s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/champ_msgs/champ_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.994s] [100%] [32m[1mLinking C shared library rosidl_generator_py/champ_msgs/champ_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.021s] [100%] Built target champ_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.022s] [100%] Built target champ_msgs__rosidl_typesupport_c__pyext
+[4.022s] [100%] Built target champ_msgs__rosidl_typesupport_introspection_c__pyext
+[4.031s] Invoked command in '/home/drone/comp0244_ws/comp0244-go2/src/build/champ_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drone/project_gazebo_ws/install/as2_visualization:/home/drone/project_gazebo_ws/install/as2_keyboard_teleoperation:/home/drone/project_gazebo_ws/install/as2_python_api:/opt/ros/humble /usr/bin/cmake --build /home/drone/comp0244_ws/comp0244-go2/src/build/champ_msgs -- -j22 -l22
+[4.032s] Invoking command in '/home/drone/comp0244_ws/comp0244-go2/src/build/champ_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drone/project_gazebo_ws/install/as2_visualization:/home/drone/project_gazebo_ws/install/as2_keyboard_teleoperation:/home/drone/project_gazebo_ws/install/as2_python_api:/opt/ros/humble /usr/bin/cmake --install /home/drone/comp0244_ws/comp0244-go2/src/build/champ_msgs
+[4.038s] -- Install configuration: ""
+[4.038s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/ament_index/resource_index/rosidl_interfaces/champ_msgs
+[4.038s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs
+[4.038s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg
+[4.038s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/point_array.h
+[4.039s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/pose.h
+[4.039s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/velocities.h
+[4.039s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.039s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/contacts.h
+[4.039s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/contacts_stamped.h
+[4.039s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/point.h
+[4.039s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail
+[4.039s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__struct.h
+[4.039s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__type_support.h
+[4.039s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__functions.c
+[4.039s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__functions.h
+[4.039s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__struct.h
+[4.039s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__struct.h
+[4.039s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__struct.h
+[4.039s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__type_support.h
+[4.039s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__functions.c
+[4.039s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__functions.h
+[4.039s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__type_support.h
+[4.039s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__struct.h
+[4.039s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__struct.h
+[4.040s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__type_support.h
+[4.040s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__struct.h
+[4.040s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__functions.c
+[4.040s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__functions.c
+[4.040s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__functions.h
+[4.040s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__functions.c
+[4.040s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__type_support.h
+[4.040s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__struct.h
+[4.040s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__functions.h
+[4.040s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__functions.h
+[4.040s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__functions.c
+[4.040s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__type_support.h
+[4.040s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__type_support.h
+[4.040s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__functions.h
+[4.040s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__type_support.h
+[4.040s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__functions.c
+[4.040s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__functions.h
+[4.040s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__functions.c
+[4.040s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__functions.c
+[4.040s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__type_support.h
+[4.040s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__functions.h
+[4.040s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__struct.h
+[4.040s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__functions.h
+[4.041s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/pid.h
+[4.041s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/imu.h
+[4.041s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/joints.h
+[4.041s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/environment/library_path.sh
+[4.041s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/environment/library_path.dsv
+[4.041s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/lib/libchamp_msgs__rosidl_generator_c.so
+[4.041s] -- Set runtime path of "/home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/lib/libchamp_msgs__rosidl_generator_c.so" to ""
+[4.041s] -- Up-to-date: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs
+[4.041s] -- Up-to-date: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg
+[4.041s] -- Up-to-date: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail
+[4.041s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__rosidl_typesupport_fastrtps_c.h
+[4.041s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_c.h
+[4.041s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__rosidl_typesupport_fastrtps_c.h
+[4.041s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__rosidl_typesupport_fastrtps_c.h
+[4.041s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__rosidl_typesupport_fastrtps_c.h
+[4.041s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__rosidl_typesupport_fastrtps_c.h
+[4.041s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
+[4.041s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__rosidl_typesupport_fastrtps_c.h
+[4.042s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__rosidl_typesupport_fastrtps_c.h
+[4.042s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.042s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_fastrtps_c.so
+[4.042s] -- Set runtime path of "/home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[4.042s] -- Up-to-date: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs
+[4.042s] -- Up-to-date: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg
+[4.042s] -- Up-to-date: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail
+[4.042s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__type_support.c
+[4.042s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__type_support.c
+[4.042s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__type_support.c
+[4.042s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__type_support.c
+[4.042s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__rosidl_typesupport_introspection_c.h
+[4.042s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__type_support.c
+[4.042s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__rosidl_typesupport_introspection_c.h
+[4.042s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__type_support.c
+[4.042s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__rosidl_typesupport_introspection_c.h
+[4.042s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__rosidl_typesupport_introspection_c.h
+[4.042s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__rosidl_typesupport_introspection_c.h
+[4.042s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__rosidl_typesupport_introspection_c.h
+[4.042s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__rosidl_typesupport_introspection_c.h
+[4.042s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__rosidl_typesupport_introspection_c.h
+[4.042s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__type_support.c
+[4.042s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__type_support.c
+[4.042s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__type_support.c
+[4.042s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__rosidl_typesupport_introspection_c.h
+[4.042s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.043s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_introspection_c.so
+[4.043s] -- Set runtime path of "/home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_introspection_c.so" to ""
+[4.043s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_c.so
+[4.043s] -- Set runtime path of "/home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_c.so" to ""
+[4.043s] -- Up-to-date: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs
+[4.043s] -- Up-to-date: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg
+[4.043s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/velocities.hpp
+[4.043s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/contacts.hpp
+[4.043s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/pose.hpp
+[4.043s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/imu.hpp
+[4.043s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/point.hpp
+[4.043s] -- Up-to-date: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail
+[4.043s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__type_support.hpp
+[4.043s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__struct.hpp
+[4.043s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__traits.hpp
+[4.043s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__struct.hpp
+[4.043s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__type_support.hpp
+[4.043s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__traits.hpp
+[4.043s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__builder.hpp
+[4.043s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__type_support.hpp
+[4.043s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__traits.hpp
+[4.043s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__type_support.hpp
+[4.043s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__builder.hpp
+[4.044s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__type_support.hpp
+[4.044s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__struct.hpp
+[4.044s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__builder.hpp
+[4.044s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__builder.hpp
+[4.044s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__struct.hpp
+[4.044s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__type_support.hpp
+[4.044s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__builder.hpp
+[4.044s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__type_support.hpp
+[4.044s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__traits.hpp
+[4.044s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__builder.hpp
+[4.044s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__builder.hpp
+[4.044s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__traits.hpp
+[4.044s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__struct.hpp
+[4.044s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__struct.hpp
+[4.044s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__builder.hpp
+[4.044s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__traits.hpp
+[4.044s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__struct.hpp
+[4.045s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__builder.hpp
+[4.045s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__struct.hpp
+[4.045s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__type_support.hpp
+[4.045s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__type_support.hpp
+[4.045s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__traits.hpp
+[4.045s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__traits.hpp
+[4.045s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__struct.hpp
+[4.045s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__traits.hpp
+[4.045s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/contacts_stamped.hpp
+[4.045s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/pid.hpp
+[4.045s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.045s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/joints.hpp
+[4.045s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/point_array.hpp
+[4.045s] -- Up-to-date: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs
+[4.045s] -- Up-to-date: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg
+[4.045s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.045s] -- Up-to-date: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail
+[4.045s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__rosidl_typesupport_fastrtps_cpp.hpp
+[4.045s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_cpp.hpp
+[4.046s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[4.046s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__rosidl_typesupport_fastrtps_cpp.hpp
+[4.046s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp
+[4.046s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__rosidl_typesupport_fastrtps_cpp.hpp
+[4.046s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__rosidl_typesupport_fastrtps_cpp.hpp
+[4.046s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/dds_fastrtps
+[4.046s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__rosidl_typesupport_fastrtps_cpp.hpp
+[4.046s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__rosidl_typesupport_fastrtps_cpp.hpp
+[4.046s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.046s] -- Set runtime path of "/home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.046s] -- Up-to-date: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs
+[4.046s] -- Up-to-date: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg
+[4.046s] -- Up-to-date: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail
+[4.046s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__rosidl_typesupport_introspection_cpp.hpp
+[4.046s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__type_support.cpp
+[4.046s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__rosidl_typesupport_introspection_cpp.hpp
+[4.046s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__rosidl_typesupport_introspection_cpp.hpp
+[4.046s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__rosidl_typesupport_introspection_cpp.hpp
+[4.046s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__rosidl_typesupport_introspection_cpp.hpp
+[4.046s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__rosidl_typesupport_introspection_cpp.hpp
+[4.046s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__type_support.cpp
+[4.046s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__type_support.cpp
+[4.046s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__rosidl_typesupport_introspection_cpp.hpp
+[4.046s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point__type_support.cpp
+[4.046s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__type_support.cpp
+[4.047s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__type_support.cpp
+[4.047s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/point_array__type_support.cpp
+[4.047s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pid__rosidl_typesupport_introspection_cpp.hpp
+[4.047s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/velocities__type_support.cpp
+[4.047s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__type_support.cpp
+[4.047s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp
+[4.047s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_introspection_cpp.so
+[4.047s] -- Set runtime path of "/home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[4.047s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_cpp.so
+[4.047s] -- Set runtime path of "/home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_cpp.so" to ""
+[4.047s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/environment/pythonpath.sh
+[4.047s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/environment/pythonpath.dsv
+[4.047s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs-0.1.0-py3.10.egg-info
+[4.047s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs-0.1.0-py3.10.egg-info/dependency_links.txt
+[4.048s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs-0.1.0-py3.10.egg-info/PKG-INFO
+[4.048s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs-0.1.0-py3.10.egg-info/top_level.txt
+[4.048s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs-0.1.0-py3.10.egg-info/SOURCES.txt
+[4.048s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs
+[4.048s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/__init__.py
+[4.048s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.048s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.048s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg
+[4.048s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/__init__.py
+[4.048s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_point_s.c
+[4.048s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_point_array_s.c
+[4.048s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_contacts.py
+[4.048s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_pid.py
+[4.048s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_joints_s.c
+[4.048s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_imu.py
+[4.048s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_pose_s.c
+[4.048s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_imu_s.c
+[4.048s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_contacts_s.c
+[4.048s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_pose.py
+[4.048s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_pid_s.c
+[4.048s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_contacts_stamped_s.c
+[4.048s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_velocities.py
+[4.049s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_point_array.py
+[4.049s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_joints.py
+[4.050s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_velocities_s.c
+[4.050s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_point.py
+[4.050s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_contacts_stamped.py
+[4.050s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.050s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.050s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.050s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_c.c
+[4.050s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/libchamp_msgs__rosidl_generator_py.so
+[4.075s] Listing '/home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs'...
+[4.075s] Compiling '/home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/__init__.py'...
+[4.075s] Listing '/home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg'...
+[4.075s] Compiling '/home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/__init__.py'...
+[4.075s] Compiling '/home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_contacts.py'...
+[4.075s] Compiling '/home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_contacts_stamped.py'...
+[4.075s] Compiling '/home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_imu.py'...
+[4.075s] Compiling '/home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_joints.py'...
+[4.075s] Compiling '/home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_pid.py'...
+[4.075s] Compiling '/home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_point.py'...
+[4.075s] Compiling '/home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_point_array.py'...
+[4.075s] Compiling '/home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_pose.py'...
+[4.075s] Compiling '/home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/msg/_velocities.py'...
+[4.077s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.078s] -- Set runtime path of "/home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.078s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.078s] -- Set runtime path of "/home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.078s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.078s] -- Set runtime path of "/home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/local/lib/python3.10/dist-packages/champ_msgs/champ_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.078s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/lib/libchamp_msgs__rosidl_generator_py.so
+[4.078s] -- Set runtime path of "/home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/lib/libchamp_msgs__rosidl_generator_py.so" to ""
+[4.078s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/msg/Velocities.idl
+[4.079s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/msg/PID.idl
+[4.079s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/msg/Imu.idl
+[4.079s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/msg/Point.idl
+[4.079s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/msg/PointArray.idl
+[4.079s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/msg/Joints.idl
+[4.079s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/msg/Contacts.idl
+[4.079s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/msg/ContactsStamped.idl
+[4.079s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/msg/Pose.idl
+[4.079s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/msg/Velocities.msg
+[4.079s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/msg/PID.msg
+[4.079s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/msg/Imu.msg
+[4.079s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/msg/Point.msg
+[4.079s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/msg/PointArray.msg
+[4.079s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/msg/Joints.msg
+[4.080s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/msg/Contacts.msg
+[4.080s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/msg/ContactsStamped.msg
+[4.080s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/msg/Pose.msg
+[4.080s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/ament_index/resource_index/package_run_dependencies/champ_msgs
+[4.080s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/ament_index/resource_index/parent_prefix_path/champ_msgs
+[4.080s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/environment/ament_prefix_path.sh
+[4.080s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/environment/ament_prefix_path.dsv
+[4.080s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/environment/path.sh
+[4.080s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/environment/path.dsv
+[4.080s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/local_setup.bash
+[4.080s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/local_setup.sh
+[4.080s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/local_setup.zsh
+[4.080s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/local_setup.dsv
+[4.080s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/package.dsv
+[4.080s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/ament_index/resource_index/packages/champ_msgs
+[4.080s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_generator_cExport.cmake
+[4.081s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.081s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.081s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.081s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.081s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.081s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_cExport.cmake
+[4.081s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.081s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_generator_cppExport.cmake
+[4.081s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.081s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.081s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.081s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.081s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_cppExport.cmake
+[4.082s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/cmake/champ_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.082s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_generator_pyExport.cmake
+[4.082s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/cmake/export_champ_msgs__rosidl_generator_pyExport-noconfig.cmake
+[4.082s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/cmake/rosidl_cmake-extras.cmake
+[4.082s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.082s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.082s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.082s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.082s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.082s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.082s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/cmake/champ_msgsConfig.cmake
+[4.082s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/cmake/champ_msgsConfig-version.cmake
+[4.082s] -- Installing: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_msgs/share/champ_msgs/package.xml

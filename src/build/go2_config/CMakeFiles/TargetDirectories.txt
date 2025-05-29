@@ -1,0 +1,9 @@
+/home/drone/comp0244_ws/comp0244-go2/src/build/go2_config/CMakeFiles/uninstall.dir
+/home/drone/comp0244_ws/comp0244-go2/src/build/go2_config/CMakeFiles/go2_config_uninstall.dir
+/home/drone/comp0244_ws/comp0244-go2/src/build/go2_config/CMakeFiles/test.dir
+/home/drone/comp0244_ws/comp0244-go2/src/build/go2_config/CMakeFiles/edit_cache.dir
+/home/drone/comp0244_ws/comp0244-go2/src/build/go2_config/CMakeFiles/rebuild_cache.dir
+/home/drone/comp0244_ws/comp0244-go2/src/build/go2_config/CMakeFiles/list_install_components.dir
+/home/drone/comp0244_ws/comp0244-go2/src/build/go2_config/CMakeFiles/install.dir
+/home/drone/comp0244_ws/comp0244-go2/src/build/go2_config/CMakeFiles/install/local.dir
+/home/drone/comp0244_ws/comp0244-go2/src/build/go2_config/CMakeFiles/install/strip.dir

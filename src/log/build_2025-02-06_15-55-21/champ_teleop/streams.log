@@ -1,0 +1,23 @@
+[0.031s] Invoking command in '/home/drone/comp0244_ws/comp0244-go2/src/build/champ_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drone/project_gazebo_ws/install/as2_visualization:/home/drone/project_gazebo_ws/install/as2_keyboard_teleoperation:/home/drone/project_gazebo_ws/install/as2_python_api:/opt/ros/humble /usr/bin/cmake --build /home/drone/comp0244_ws/comp0244-go2/src/build/champ_teleop -- -j22 -l22
+[0.692s] Invoked command in '/home/drone/comp0244_ws/comp0244-go2/src/build/champ_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drone/project_gazebo_ws/install/as2_visualization:/home/drone/project_gazebo_ws/install/as2_keyboard_teleoperation:/home/drone/project_gazebo_ws/install/as2_python_api:/opt/ros/humble /usr/bin/cmake --build /home/drone/comp0244_ws/comp0244-go2/src/build/champ_teleop -- -j22 -l22
+[0.694s] Invoking command in '/home/drone/comp0244_ws/comp0244-go2/src/build/champ_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drone/project_gazebo_ws/install/as2_visualization:/home/drone/project_gazebo_ws/install/as2_keyboard_teleoperation:/home/drone/project_gazebo_ws/install/as2_python_api:/opt/ros/humble /usr/bin/cmake --install /home/drone/comp0244_ws/comp0244-go2/src/build/champ_teleop
+[0.711s] -- Install configuration: ""
+[0.711s] -- Up-to-date: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_teleop/share/champ_teleop/launch
+[0.711s] -- Up-to-date: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_teleop/share/champ_teleop/launch/teleop.launch.py
+[0.711s] -- Up-to-date: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_teleop/lib/champ_teleop/champ_teleop.py
+[0.711s] -- Up-to-date: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_teleop/share/ament_index/resource_index/package_run_dependencies/champ_teleop
+[0.712s] -- Up-to-date: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_teleop/share/ament_index/resource_index/parent_prefix_path/champ_teleop
+[0.712s] -- Up-to-date: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_teleop/share/champ_teleop/environment/ament_prefix_path.sh
+[0.712s] -- Up-to-date: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_teleop/share/champ_teleop/environment/ament_prefix_path.dsv
+[0.712s] -- Up-to-date: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_teleop/share/champ_teleop/environment/path.sh
+[0.712s] -- Up-to-date: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_teleop/share/champ_teleop/environment/path.dsv
+[0.713s] -- Up-to-date: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_teleop/share/champ_teleop/local_setup.bash
+[0.713s] -- Up-to-date: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_teleop/share/champ_teleop/local_setup.sh
+[0.713s] -- Up-to-date: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_teleop/share/champ_teleop/local_setup.zsh
+[0.713s] -- Up-to-date: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_teleop/share/champ_teleop/local_setup.dsv
+[0.713s] -- Up-to-date: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_teleop/share/champ_teleop/package.dsv
+[0.713s] -- Up-to-date: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_teleop/share/ament_index/resource_index/packages/champ_teleop
+[0.713s] -- Up-to-date: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_teleop/share/champ_teleop/cmake/champ_teleopConfig.cmake
+[0.713s] -- Up-to-date: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_teleop/share/champ_teleop/cmake/champ_teleopConfig-version.cmake
+[0.713s] -- Up-to-date: /home/drone/comp0244_ws/comp0244-go2/src/install/champ_teleop/share/champ_teleop/package.xml
+[0.755s] Invoked command in '/home/drone/comp0244_ws/comp0244-go2/src/build/champ_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/drone/project_gazebo_ws/install/as2_visualization:/home/drone/project_gazebo_ws/install/as2_keyboard_teleoperation:/home/drone/project_gazebo_ws/install/as2_python_api:/opt/ros/humble /usr/bin/cmake --install /home/drone/comp0244_ws/comp0244-go2/src/build/champ_teleop

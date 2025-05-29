@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/local_map_creator/local_map_creator.egg-info
+writing ../build/local_map_creator/local_map_creator.egg-info/PKG-INFO
+writing dependency_links to ../build/local_map_creator/local_map_creator.egg-info/dependency_links.txt
+writing entry points to ../build/local_map_creator/local_map_creator.egg-info/entry_points.txt
+writing requirements to ../build/local_map_creator/local_map_creator.egg-info/requires.txt
+writing top-level names to ../build/local_map_creator/local_map_creator.egg-info/top_level.txt
+writing manifest file '../build/local_map_creator/local_map_creator.egg-info/SOURCES.txt'
+reading manifest file '../build/local_map_creator/local_map_creator.egg-info/SOURCES.txt'
+writing manifest file '../build/local_map_creator/local_map_creator.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/drone/comp0244_ws/comp0244-go2/src/build/local_map_creator/build
+creating /home/drone/comp0244_ws/comp0244-go2/src/build/local_map_creator/build/lib
+creating /home/drone/comp0244_ws/comp0244-go2/src/build/local_map_creator/build/lib/local_map_creator
+copying local_map_creator/__init__.py -> /home/drone/comp0244_ws/comp0244-go2/src/build/local_map_creator/build/lib/local_map_creator
+copying local_map_creator/local_map_node.py -> /home/drone/comp0244_ws/comp0244-go2/src/build/local_map_creator/build/lib/local_map_creator
+running install
+running install_lib
+creating /home/drone/comp0244_ws/comp0244-go2/src/install/local_map_creator/lib/python3.10/site-packages/local_map_creator
+copying /home/drone/comp0244_ws/comp0244-go2/src/build/local_map_creator/build/lib/local_map_creator/__init__.py -> /home/drone/comp0244_ws/comp0244-go2/src/install/local_map_creator/lib/python3.10/site-packages/local_map_creator
+copying /home/drone/comp0244_ws/comp0244-go2/src/build/local_map_creator/build/lib/local_map_creator/local_map_node.py -> /home/drone/comp0244_ws/comp0244-go2/src/install/local_map_creator/lib/python3.10/site-packages/local_map_creator
+byte-compiling /home/drone/comp0244_ws/comp0244-go2/src/install/local_map_creator/lib/python3.10/site-packages/local_map_creator/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/drone/comp0244_ws/comp0244-go2/src/install/local_map_creator/lib/python3.10/site-packages/local_map_creator/local_map_node.py to local_map_node.cpython-310.pyc
+running install_data
+creating /home/drone/comp0244_ws/comp0244-go2/src/install/local_map_creator/share/ament_index
+creating /home/drone/comp0244_ws/comp0244-go2/src/install/local_map_creator/share/ament_index/resource_index
+creating /home/drone/comp0244_ws/comp0244-go2/src/install/local_map_creator/share/ament_index/resource_index/packages
+copying resource/local_map_creator -> /home/drone/comp0244_ws/comp0244-go2/src/install/local_map_creator/share/ament_index/resource_index/packages
+copying package.xml -> /home/drone/comp0244_ws/comp0244-go2/src/install/local_map_creator/share/local_map_creator
+running install_egg_info
+Copying ../build/local_map_creator/local_map_creator.egg-info to /home/drone/comp0244_ws/comp0244-go2/src/install/local_map_creator/lib/python3.10/site-packages/local_map_creator-0.0.1-py3.10.egg-info
+running install_scripts
+Installing local_map_creator script to /home/drone/comp0244_ws/comp0244-go2/src/install/local_map_creator/lib/local_map_creator
+writing list of installed files to '/home/drone/comp0244_ws/comp0244-go2/src/build/local_map_creator/install.log'

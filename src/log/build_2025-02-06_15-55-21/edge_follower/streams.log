@@ -1,0 +1,21 @@
+[0.900s] Invoking command in '/home/drone/comp0244_ws/comp0244-go2/src/edge_follower': PYTHONPATH=/home/drone/comp0244_ws/comp0244-go2/src/build/edge_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/comp0244_ws/comp0244-go2/src/install/edge_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/edge_follower build --build-base /home/drone/comp0244_ws/comp0244-go2/src/build/edge_follower/build install --record /home/drone/comp0244_ws/comp0244-go2/src/build/edge_follower/install.log --single-version-externally-managed install_data
+[1.066s] running egg_info
+[1.066s] writing ../build/edge_follower/edge_follower.egg-info/PKG-INFO
+[1.067s] writing dependency_links to ../build/edge_follower/edge_follower.egg-info/dependency_links.txt
+[1.067s] writing entry points to ../build/edge_follower/edge_follower.egg-info/entry_points.txt
+[1.067s] writing requirements to ../build/edge_follower/edge_follower.egg-info/requires.txt
+[1.067s] writing top-level names to ../build/edge_follower/edge_follower.egg-info/top_level.txt
+[1.068s] reading manifest file '../build/edge_follower/edge_follower.egg-info/SOURCES.txt'
+[1.068s] writing manifest file '../build/edge_follower/edge_follower.egg-info/SOURCES.txt'
+[1.068s] running build
+[1.068s] running build_py
+[1.069s] running install
+[1.069s] running install_lib
+[1.069s] running install_data
+[1.070s] running install_egg_info
+[1.071s] removing '/home/drone/comp0244_ws/comp0244-go2/src/install/edge_follower/lib/python3.10/site-packages/edge_follower-0.0.1-py3.10.egg-info' (and everything under it)
+[1.071s] Copying ../build/edge_follower/edge_follower.egg-info to /home/drone/comp0244_ws/comp0244-go2/src/install/edge_follower/lib/python3.10/site-packages/edge_follower-0.0.1-py3.10.egg-info
+[1.071s] running install_scripts
+[1.085s] Installing edge_follower script to /home/drone/comp0244_ws/comp0244-go2/src/install/edge_follower/lib/edge_follower
+[1.085s] writing list of installed files to '/home/drone/comp0244_ws/comp0244-go2/src/build/edge_follower/install.log'
+[1.103s] Invoked command in '/home/drone/comp0244_ws/comp0244-go2/src/edge_follower' returned '0': PYTHONPATH=/home/drone/comp0244_ws/comp0244-go2/src/build/edge_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/drone/comp0244_ws/comp0244-go2/src/install/edge_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/edge_follower build --build-base /home/drone/comp0244_ws/comp0244-go2/src/build/edge_follower/build install --record /home/drone/comp0244_ws/comp0244-go2/src/build/edge_follower/install.log --single-version-externally-managed install_data

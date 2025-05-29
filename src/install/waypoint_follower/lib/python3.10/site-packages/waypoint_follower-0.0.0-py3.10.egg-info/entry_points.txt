@@ -1,0 +1,3 @@
+[console_scripts]
+waypoint_follower = waypoint_follower.waypoint_follower:main
+
