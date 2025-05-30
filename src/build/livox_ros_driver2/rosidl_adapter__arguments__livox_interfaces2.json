@@ -1,7 +1,0 @@
-{
-  "package_name": "livox_ros_driver2",
-  "non_idl_tuples": [
-    "/home/drone/comp0244_ws/comp0244-go2/src/livox_ros_driver2:msg/CustomPoint.msg",
-    "/home/drone/comp0244_ws/comp0244-go2/src/livox_ros_driver2:msg/CustomMsg.msg"
-  ]
-}

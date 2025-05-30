@@ -1,3 +1,0 @@
-[console_scripts]
-local_map_creator = local_map_creator.local_map_node:main
-
