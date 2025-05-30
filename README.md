@@ -5,9 +5,7 @@
 This project implements and compares three local path planning algorithms for a legged robot in ROS2, visualized in RViz and tested in simulation with convex and concave obstacles. The tasks explore edge-following techniques, Bug0 and Bug1 algorithms, with various enhancements such as smoothing, waypoint filtering, and robust recovery behaviors.
 
 ---
-
-## Tasks Implemented
-
+## Tasks
 ### Task 1 – Counterclockwise Edge Following
 
 An edge-following algorithm guides the robot in a counterclockwise direction around obstacles.
