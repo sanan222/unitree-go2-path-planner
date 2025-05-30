@@ -1,7 +1,6 @@
 # Real-time Local Path Planning for Unitree Go2 Legged Robot
 
-**Authors:** Sanan Garayev, Enis Yalcin, Ziya Ruso  
-**Course:** UCL COMP0244 – Coursework 1  
+**Authors:** Sanan Garayev, Enis Yalcin, Ziya Ruso 
 **Year:** 2025
 
 ---
