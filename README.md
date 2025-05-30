@@ -41,6 +41,7 @@ An edge-following algorithm that keeps the robot navigating around obstacles in 
 ```math
 Q_i = \frac{3}{4}P_i + \frac{1}{4}P_{i+1}, \quad R_i = \frac{1}{4}P_i + \frac{3}{4}P_{i+1}
 ```
+![legged robot counterclockwise motion](images/task1_chaikin.png)
 
 ### Execution Steps
 
@@ -81,6 +82,8 @@ Bug0 uses a reactive planner that switches between `GO_TO_GOAL` and `AVOID_OBSTA
 - Hysteresis-controlled state transitions
 - EMA-smoothed waypoints
 
+![legged robot bug0](images/task2_bug0.png)
+
 ### Execution Steps
 
 #### Terminal 1 – Launch Robot and Environment
@@ -113,6 +116,8 @@ Bug1 enhances obstacle navigation by tracking hit and leave points.
 - **Angular Smoothing:** Simplifies jagged boundaries
 - **Recovery Rotations:** ±60° if stuck
 - **Stagnation Handling:** Resets hit point if diverged
+
+![legged robot bug1](images/task2_bug1.png)
 
 ### Execution Steps
 
