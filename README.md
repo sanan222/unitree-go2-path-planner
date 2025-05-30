@@ -59,15 +59,6 @@ A more complex path planner that records the **hit point** when an obstacle is f
 
 ---
 
-## Reference
-
-Chaikin, G. M. (1974).  
-*An algorithm for high-speed curve generation.*  
-Computer Graphics and Image Processing, 3(4), 346–349.  
-[Link to Paper](https://www.sciencedirect.com/science/article/pii/0146664X74900288)
-
----
-
 ## Visual Outputs
 
 - RViz visualizations show obstacle boundary tracking, hit and leave point markers, and goal progression.
@@ -89,6 +80,15 @@ Computer Graphics and Image Processing, 3(4), 346–349.
 - Integration of global planning and SLAM modules
 - Real-world deployment on actual legged platforms
 - Better tuning of hysteresis and obstacle margin parameters
+
+---
+
+## Reference
+
+Chaikin, G. M. (1974).  
+*An algorithm for high-speed curve generation.*  
+Computer Graphics and Image Processing, 3(4), 346–349.  
+[Link to Paper](https://www.sciencedirect.com/science/article/pii/0146664X74900288)
 
 ---
 
