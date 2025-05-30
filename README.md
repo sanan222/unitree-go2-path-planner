@@ -38,9 +38,22 @@ An edge-following algorithm that keeps the robot navigating around obstacles in 
 - **Edge Extension:** Adds 50cm if robot reaches end of a path
 
 ### Chaikin’s Algorithm Formula
+
+Chaikin’s algorithm smooths a polygonal curve by replacing each segment \([P_i, P_{i+1}]\) with two new points:
+
 ```math
 Q_i = \frac{3}{4}P_i + \frac{1}{4}P_{i+1}, \quad R_i = \frac{1}{4}P_i + \frac{3}{4}P_{i+1}
 ```
+
+where
+- \( P_i, P_{i+1} \): Original control points.
+- \( Q_i \): New point closer to \( P_i \).
+- \( R_i \): New point closer to \( P_{i+1} \).
+
+Repeating this process smooths the curve over multiple iterations.
+
+### Task 1 Visualization
+
 ![legged robot counterclockwise motion](images/task1_chaikin.png)
 
 ### Execution Steps
@@ -82,6 +95,8 @@ Bug0 uses a reactive planner that switches between `GO_TO_GOAL` and `AVOID_OBSTA
 - Hysteresis-controlled state transitions
 - EMA-smoothed waypoints
 
+
+### Task 2 Visualization
 ![legged robot bug0](images/task2_bug0.png)
 
 ### Execution Steps
@@ -117,7 +132,10 @@ Bug1 enhances obstacle navigation by tracking hit and leave points.
 - **Recovery Rotations:** ±60° if stuck
 - **Stagnation Handling:** Resets hit point if diverged
 
-![legged robot bug1](images/task2_bug1.png)
+
+### Task 3 Visualization
+
+![legged robot bug1](images/task3_bug1.png)
 
 ### Execution Steps
 
