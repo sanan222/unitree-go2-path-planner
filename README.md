@@ -1,11 +1,23 @@
 # Real-time Local Path Planning for Unitree Go2 Legged Robot
+**Sanan Garayev, Enis Yalcin, Ziya Ruso** 
 
 ## Overview
 
 This project implements and compares three local path planning algorithms for a legged robot in ROS2, visualized in RViz and tested in simulation with convex and concave obstacles. The tasks explore edge-following techniques, Bug0 and Bug1 algorithms, with various enhancements such as smoothing, waypoint filtering, and robust recovery behaviors.
 
+This README provides instructions for executing the tasks related to local path planning for Unitree Go2 Legged Robot. It includes the necessary terminal commands for launching Gazebo, setting up SLAM, running different path-planning algorithms, and publishing goal waypoints. 
+
 ---
 ## Tasks
+This project consists of three tasks, each focusing on different aspects of autonomous navigation using ROS2.  
+
+- **Task 1:** Following a wall in a counterclockwise direction.  
+- **Task 2:** Implementing the Bug0 algorithm.  
+- **Task 3:** Implementing the Bug1 algorithm.  
+
+Each task is executed using multiple terminal sessions, following the instructions below.  
+---
+
 ### Task 1 – Counterclockwise Edge Following
 
 An edge-following algorithm guides the robot in a counterclockwise direction around obstacles.
@@ -24,6 +36,36 @@ Q_i = \frac{3}{4}P_i + \frac{1}{4}P_{i+1}, \quad R_i = \frac{1}{4}P_i + \frac{3}
 ```
 This process is repeated to achieve a smoother curve.
 
+#### Task 1 Execution
+We follow the steps from Lab 3 terminal commands as shown below.
+
+##### Terminal 1: Launch Gazebo, SLAM, Waypoint Follower
+
+```sh
+xhost +
+sudo docker container start comp0244_unitree
+sudo docker exec -it comp0244_unitree /bin/bash
+source /usr/app/comp0244_ws/comp0244-go2/install/setup.bash
+cd /usr/app/comp0244_ws/comp0244-go2/
+colcon build
+cd /usr/app/comp0244_ws/comp0244-go2/scripts
+ros2 launch robot_launch.launch.py
+```
+
+##### Terminal 2: Publish a waypoint {x, y, theta} (w.r.t the odom frame)
+
+```sh
+sudo docker exec -it comp0244_unitree /bin/bash
+source /usr/app/comp0244_ws/comp0244-go2/install/setup.bash
+ros2 topic pub /waypoint geometry_msgs/Pose2D "{x: -1.0, y: 0.0, theta: 0.0}" -r 1
+Ctrl+C
+```
+
+##### Terminal 2: Follow the wall in counterclockwise direction
+```sh
+ros2 launch cw1_team_12 run_solution_task_1.launch.py
+```
+
 ---
 
 ### Task 2 – Bug0 Algorithm
@@ -37,8 +79,34 @@ A reactive path planner using a state machine to alternate between direct motion
 - **Waypoint Smoothing:** Uses exponential moving average for stable motion.
 - **Obstacle Clearance:** Checks goal direction for free path before transitioning states.
 
----
+#### Task 2 Execution
+##### Terminal 1: Colcon Build, Launch Gazebo, SLAM, Waypoint Follower
+```sh
+xhost +
+sudo docker container start comp0244_unitree
+sudo docker exec -it comp0244_unitree /bin/bash
+source /usr/app/comp0244_ws/comp0244-go2/install/setup.bash
+cd /usr/app/comp0244_ws/comp0244-go2/
+colcon build
+cd /usr/app/comp0244_ws/comp0244-go2/scripts
+ros2 launch robot_launch.launch.py
+```
 
+##### Terminal 2: Launch Bug0 Algorithm
+```sh
+sudo docker exec -it comp0244_unitree /bin/bash
+source /usr/app/comp0244_ws/comp0244-go2/install/setup.bash
+ros2 launch cw1_team_12 run_solution_task_2.launch.py
+```
+
+##### Terminal 3: Publish a goal point {x, y, theta} (w.r.t the odom frame)
+```sh
+sudo docker exec -it comp0244_unitree /bin/bash
+source /usr/app/comp0244_ws/comp0244-go2/install/setup.bash
+ros2 topic pub /goal geometry_msgs/Pose2D "{x: 8.0, y: 8.0, theta: 0.0}"
+```
+
+---
 ### Task 3 – Bug1 Algorithm
 
 A more complex path planner that records the **hit point** when an obstacle is first encountered, follows the boundary, then resumes to the **leave point** closest to the goal.
@@ -55,6 +123,32 @@ A more complex path planner that records the **hit point** when an obstacle is f
 - **Recovery Logic:** Resets or rotates robot (±60°) if progress stalls or path diverges.
 - **Angular Smoothing Only:** Retains only significant edge direction changes (better for path consistency).
 
+#### Task 3 Execution
+##### Terminal 1: Colcon Build, Launch Gazebo, SLAM, Waypoint Follower
+```sh
+xhost +
+sudo docker container start comp0244_unitree
+sudo docker exec -it comp0244_unitree /bin/bash
+source /usr/app/comp0244_ws/comp0244-go2/install/setup.bash
+cd /usr/app/comp0244_ws/comp0244-go2/
+colcon build
+cd /usr/app/comp0244_ws/comp0244-go2/scripts
+ros2 launch robot_launch.launch.py
+```
+
+##### Terminal 2: Launch Bug0 Algorithm
+```sh
+sudo docker exec -it comp0244_unitree /bin/bash
+source /usr/app/comp0244_ws/comp0244-go2/install/setup.bash
+ros2 launch cw1_team_12 run_solution_task_3.launch.py
+```
+
+##### Terminal 3: Publish a goal point {x, y, theta} (w.r.t the odom frame)
+```sh
+sudo docker exec -it comp0244_unitree /bin/bash
+source /usr/app/comp0244_ws/comp0244-go2/install/setup.bash
+ros2 topic pub /goal geometry_msgs/Pose2D "{x: 0.0, y: 5.0, theta: 0.0}"
+```
 ---
 
 ## Visual Outputs
@@ -89,6 +183,8 @@ Computer Graphics and Image Processing, 3(4), 346–349.
 [Link to Paper](https://www.sciencedirect.com/science/article/pii/0146664X74900288)
 
 ---
+## License  
 
+This project is licensed under the MIT License. 
 © Team 12 – UCL COMP0244, 2025
 
